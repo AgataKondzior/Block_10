@@ -6,7 +6,7 @@ var main = function ()
      $('.hidden').hide();
         
     $(this).addClass('current');
-    $(this).children('.hidden').toggle("slow");   
+    $(this).children('.hidden').show();   
            
 });
  
@@ -14,7 +14,7 @@ var main = function ()
     if(event.which === 111) {
       $('.hidden').hide();
 
-      $('.current').children('.hidden').toggle("slow");
+      $('.current').children('.hidden').show();
     }
 
     else if(event.which === 110) {
