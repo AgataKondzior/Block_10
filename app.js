@@ -14,17 +14,17 @@ var main = function ()
     
         if(event.which === 111) {
             
-        $('.hidden').hide();
-        $('.current').children('.hidden').show();
+          $('.hidden').hide();
+          $('.current').children('.hidden').show();
     }
 
         else if(event.which === 110) {
             
-        var currentArticle = $('.current');
-        var nextArticle = currentArticle.next();
+          var currentArticle = $('.current');
+          var nextArticle = currentArticle.next();
       
-        currentArticle.removeClass('current');
-        nextArticle.addClass('current');
+          currentArticle.removeClass('current');
+          nextArticle.addClass('current');
     }
     
   });
